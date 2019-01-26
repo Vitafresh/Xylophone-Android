@@ -4,6 +4,7 @@ import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -43,6 +44,33 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // TODO: Add the play methods triggered by the buttons
+        public void playC(View v){
+            Log.d("Xylophone", "PlayC");
+        }
+
+    public void playD(View v){
+        Log.d("Xylophone", "PlayD");
+    }
+
+    public void playE(View v){
+        Log.d("Xylophone", "PlayE");
+    }
+
+    public void playF(View v){
+        Log.d("Xylophone", "PlayF");
+    }
+
+    public void playG(View v){
+        Log.d("Xylophone", "PlayG");
+    }
+
+    public void playA(View v){
+        Log.d("Xylophone", "PlayA");
+    }
+
+    public void playB(View v){
+        Log.d("Xylophone", "PlayB");
+    }
 
 
 
